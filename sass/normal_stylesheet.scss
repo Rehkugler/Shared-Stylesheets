@@ -34,7 +34,11 @@ div.arrow-up
 }
 
 div#picture {
+	width: 150px;
+	height: 150px;
+}
 
+div#picture.paul {
 	@include if-max-resolution(1.49) {
 		background-image:url('../img/paul-face-desktop.png');
 	}
@@ -42,9 +46,16 @@ div#picture {
 	@include if-min-resolution(1.5) {
 		background-image:url('../img/paul-face-retina-desktop.png');
 	}
+}
 
-	width: 150px;
-	height: 150px;
+div#picture.michelle {
+	@include if-max-resolution(1.49) {
+		background-image:url('../img/michelle-face-desktop.png');
+	}
+
+	@include if-min-resolution(1.5) {
+		background-image:url('../img/michelle-face-retina-desktop.png');
+	}
 }
 
 .spacer {
