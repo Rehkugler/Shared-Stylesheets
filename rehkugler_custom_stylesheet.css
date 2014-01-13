@@ -11,4 +11,5 @@
   div#picture {
     margin-left: 25px; } }
 div#content {
+  position: static;
   margin: 0 auto; }
