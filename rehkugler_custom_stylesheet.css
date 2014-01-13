@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  div#content {
+    width: 400px; }
+
+  div#picture {
+    margin-left: 25px; } }
+@media (min-width: 769px) {
+  div#content {
+    width: 200px; }
+
+  div#picture {
+    margin-left: 25px; } }
